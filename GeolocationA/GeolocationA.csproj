@@ -58,8 +58,8 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Mono.Android" />
-    <Reference Include="Xamarin.GooglePlayServices.Tasks, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Xamarin.GooglePlayServices.Tasks.42.1021.1\lib\MonoAndroid70\Xamarin.GooglePlayServices.Tasks.dll</HintPath>
+    <Reference Include="Xamarin.GooglePlayServices.Base, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.GooglePlayServices.Base.42.1021.1\lib\MonoAndroid70\Xamarin.GooglePlayServices.Base.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -110,7 +110,7 @@
     <Error Condition="!Exists('..\packages\Crosslight.Xamarin.Android.Support.Vector.Drawable.25.3.1\build\MonoAndroid70\Crosslight.Xamarin.Android.Support.Vector.Drawable.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Crosslight.Xamarin.Android.Support.Vector.Drawable.25.3.1\build\MonoAndroid70\Crosslight.Xamarin.Android.Support.Vector.Drawable.targets'))" />
     <Error Condition="!Exists('..\packages\Crosslight.Xamarin.Android.Support.Animated.Vector.Drawable.25.3.1\build\MonoAndroid70\Crosslight.Xamarin.Android.Support.Animated.Vector.Drawable.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Crosslight.Xamarin.Android.Support.Animated.Vector.Drawable.25.3.1\build\MonoAndroid70\Crosslight.Xamarin.Android.Support.Animated.Vector.Drawable.targets'))" />
     <Error Condition="!Exists('..\packages\Crosslight.Xamarin.Android.Support.v7.AppCompat.25.3.1\build\MonoAndroid70\Crosslight.Xamarin.Android.Support.v7.AppCompat.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Crosslight.Xamarin.Android.Support.v7.AppCompat.25.3.1\build\MonoAndroid70\Crosslight.Xamarin.Android.Support.v7.AppCompat.targets'))" />
-    <Error Condition="!Exists('..\packages\Xamarin.GooglePlayServices.Tasks.42.1021.1\build\MonoAndroid70\Xamarin.GooglePlayServices.Tasks.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.GooglePlayServices.Tasks.42.1021.1\build\MonoAndroid70\Xamarin.GooglePlayServices.Tasks.targets'))" />
+    <Error Condition="!Exists('..\packages\Xamarin.GooglePlayServices.Base.42.1021.1\build\MonoAndroid70\Xamarin.GooglePlayServices.Base.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.GooglePlayServices.Base.42.1021.1\build\MonoAndroid70\Xamarin.GooglePlayServices.Base.targets'))" />
   </Target>
   <Import Project="..\packages\Crosslight.Xamarin.Build.Download.25.3.1\build\Crosslight.Xamarin.Build.Download.targets" Condition="Exists('..\packages\Crosslight.Xamarin.Build.Download.25.3.1\build\Crosslight.Xamarin.Build.Download.targets')" />
   <Import Project="..\packages\Crosslight.Xamarin.Android.Support.Compat.25.3.1\build\MonoAndroid70\Crosslight.Xamarin.Android.Support.Compat.targets" Condition="Exists('..\packages\Crosslight.Xamarin.Android.Support.Compat.25.3.1\build\MonoAndroid70\Crosslight.Xamarin.Android.Support.Compat.targets')" />
@@ -121,7 +121,7 @@
   <Import Project="..\packages\Crosslight.Xamarin.Android.Support.Vector.Drawable.25.3.1\build\MonoAndroid70\Crosslight.Xamarin.Android.Support.Vector.Drawable.targets" Condition="Exists('..\packages\Crosslight.Xamarin.Android.Support.Vector.Drawable.25.3.1\build\MonoAndroid70\Crosslight.Xamarin.Android.Support.Vector.Drawable.targets')" />
   <Import Project="..\packages\Crosslight.Xamarin.Android.Support.Animated.Vector.Drawable.25.3.1\build\MonoAndroid70\Crosslight.Xamarin.Android.Support.Animated.Vector.Drawable.targets" Condition="Exists('..\packages\Crosslight.Xamarin.Android.Support.Animated.Vector.Drawable.25.3.1\build\MonoAndroid70\Crosslight.Xamarin.Android.Support.Animated.Vector.Drawable.targets')" />
   <Import Project="..\packages\Crosslight.Xamarin.Android.Support.v7.AppCompat.25.3.1\build\MonoAndroid70\Crosslight.Xamarin.Android.Support.v7.AppCompat.targets" Condition="Exists('..\packages\Crosslight.Xamarin.Android.Support.v7.AppCompat.25.3.1\build\MonoAndroid70\Crosslight.Xamarin.Android.Support.v7.AppCompat.targets')" />
-  <Import Project="..\packages\Xamarin.GooglePlayServices.Tasks.42.1021.1\build\MonoAndroid70\Xamarin.GooglePlayServices.Tasks.targets" Condition="Exists('..\packages\Xamarin.GooglePlayServices.Tasks.42.1021.1\build\MonoAndroid70\Xamarin.GooglePlayServices.Tasks.targets')" />
+  <Import Project="..\packages\Xamarin.GooglePlayServices.Base.42.1021.1\build\MonoAndroid70\Xamarin.GooglePlayServices.Base.targets" Condition="Exists('..\packages\Xamarin.GooglePlayServices.Base.42.1021.1\build\MonoAndroid70\Xamarin.GooglePlayServices.Base.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
 		Other similar extension points exist, see Microsoft.Common.targets.
 		<Target Name="BeforeBuild">
